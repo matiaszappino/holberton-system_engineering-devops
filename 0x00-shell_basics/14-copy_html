@@ -1,2 +1,2 @@
 #!/bin/bash
-cp xn *.html* .. 
+cp n *.html* .. 
