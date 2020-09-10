@@ -3,15 +3,15 @@
 .B eniac
 - the first electronic general-purpose digital computer.
 .SH SYNOPSIS
-.B eniac
+eniac
 .SH DESCRIPTION
-.B Eniac was Turing-complete, and able tosolve "a large class of numerical problems" through reprogramming.
+Eniac was Turing-complete, and able tosolve "a large class of numerical problems" through reprogramming.
 .SH OPTIONS
 .B eniac
 does not take any options.
 .SH SEE ALSO
-.B ENIAC could be programmed to perform complex sequences of operations(2), including loops(2), branches(2), and subroutines(2).
+ENIAC could be programmed to perform complex sequences of operations(2), including loops(2), branches(2), and subroutines(2).
 .SH BUGS
-.B No known bugs.
+No known bugs.
 .SH AUTHOR
-.B University of Pennsylvania.
+University of Pennsylvania. 
