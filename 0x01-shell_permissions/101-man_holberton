@@ -5,7 +5,7 @@
 .SH SYNOPSIS
 eniac
 .SH DESCRIPTION
-Eniac was Turing-complete, and able tosolve "a large class of numerical problems" through reprogramming.
+Eniac was Turing-complete, and able to solve "a large class of numerical problems" through reprogramming.
 .SH OPTIONS
 .B eniac
 does not take any options.
@@ -14,4 +14,4 @@ ENIAC could be programmed to perform complex sequences of operations(2), includi
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-University of Pennsylvania. 
+University of Pennsylvania.
