@@ -1,18 +1,13 @@
 .\" eniac man page
 .TH man 8 "10 December 1945" "0.32" "Manual page 101-man_holberton"
-
 .SH NAME
 	eniac - the first electronic general-purpose digital computer.
-
 .SH SYNOPSIS
 	eniac
-
 .SH DESCRIPTION
 	Eniac was Turing-complete, and able tosolve "a large class of numerical problems" through reprogramming.
-
 .SH OPTIONS
 	eniac does not take any option.
-
 .SH SEE ALSO
 BUGS
 	No known bugs.
