@@ -1,15 +1,14 @@
-.\" eniac man page
-.TH man 2 "10 December 1945" "0.32" "Manual page 101-man_holberton"
+.TH man 2 "10 December 1945" "0.32" "eniac man page"
 .SH NAME
-.RB"eniac" - the first electronic general-purpose digital computer.
+.B " eniac " - the first electronic general-purpose digital computer.
 .SH SYNOPSIS
-eniac
+.B eniac
 .SH DESCRIPTION
-Eniac was Turing-complete, and able tosolve "a large class of numerical problems" through reprogramming.
+B. Eniac was Turing-complete, and able tosolve "a large class of numerical problems" through reprogramming.
 .SH OPTIONS
-eniac does not take any option.
+B. eniac does not take any option.
 .SH SEE ALSO
-BUGS
-No known bugs.
+.B BUGS
+.B No known bugs.
 .SH AUTHOR
-University of Pennsylvania.
+.B University of Pennsylvania.
