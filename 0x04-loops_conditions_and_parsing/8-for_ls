@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # For ls script
 
-for i in $(ls *)
+for i in *
 do
     echo "$i" | cut -d "-" -f 2
 done

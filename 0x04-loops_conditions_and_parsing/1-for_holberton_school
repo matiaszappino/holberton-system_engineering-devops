@@ -2,7 +2,7 @@
 # This script is displaying "Holberton School" 10 times
 
 name="Holberton School"
-for i in {1..10}
+for _ in {1..10}
 do 
     echo "$name"
 done

@@ -15,7 +15,8 @@ do
         echo "$japan";;
         17)
         echo "$italy";;
+        *)
+        echo "$counter"
     esac
-    echo "$counter"
     ((counter++))
 done
