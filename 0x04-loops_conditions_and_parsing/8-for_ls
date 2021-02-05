@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# For ls script
+
+list="$(ls *)"
+for i in $list
+do
+    echo $i | cut -d "-" -f 2
+done
