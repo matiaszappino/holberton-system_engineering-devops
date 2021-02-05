@@ -10,10 +10,13 @@ while [ $counter -le 20 ]
 do
     case $counter in
         4)
+        echo "$counter"
         echo "$china";;
         9)
+        echo "$counter"
         echo "$japan";;
         17)
+        echo "$counter"
         echo "$italy";;
         *)
         echo "$counter"
