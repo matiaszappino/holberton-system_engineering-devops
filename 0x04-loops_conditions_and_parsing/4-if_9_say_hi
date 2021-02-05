@@ -6,10 +6,10 @@ name="Holberton School"
 hi="Hi"
 while [ $counter -le 10 ]
 do
-    echo $name
+    echo "$name"
     if [ $counter -eq 9 ]
     then
-        echo $hi
+        "echo $hi"
     fi
     ((counter++))
 done

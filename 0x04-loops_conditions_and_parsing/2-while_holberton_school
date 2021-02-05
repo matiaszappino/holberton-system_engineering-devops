@@ -5,6 +5,6 @@ counter=1
 name="Holberton School"
 while [ $counter -le 10 ]
 do
-    echo $name
+    echo "$name"
     ((counter++))
 done

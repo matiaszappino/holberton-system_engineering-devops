@@ -10,12 +10,12 @@ while [ $counter -le 20 ]
 do
     case $counter in
         4)
-        echo $china;;
+        echo "$china";;
         9)
-        echo $japan;;
+        echo "$japan";;
         17)
-        echo $italy;;
+        echo "$italy";;
     esac
-    echo $counter
+    echo "$counter"
     ((counter++))
 done
