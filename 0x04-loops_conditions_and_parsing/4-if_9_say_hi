@@ -9,7 +9,7 @@ do
     echo "$name"
     if [ $counter -eq 9 ]
     then
-        "echo $hi"
+        echo "$hi"
     fi
     ((counter++))
 done
