@@ -5,7 +5,7 @@
 # With a sleep 2 in between each iteration
 # I am invincible!!! when receiving a SIGTERM signal
 
-while [ 1 ]
+while "true"
 do
     echo "To infinity and beyond"
     sleep 2
