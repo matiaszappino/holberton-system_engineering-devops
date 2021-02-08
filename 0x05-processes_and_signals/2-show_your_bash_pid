@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that displays lines containing the bash word
+
+ps -A fu | grep bash
