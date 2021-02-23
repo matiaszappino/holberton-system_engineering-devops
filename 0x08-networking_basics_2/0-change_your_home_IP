@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+newip="127.0.0.2"
+face="8.8.8.8"
+
+sudo sed -i "s/.*localhost$/${newip} localhost/" /etc/hosts
+if sudo grep -q facebook.com "/etc/hosts"
+then
+    sudo sed -i "s/.*facebook.com$/${face} facebook.com/" /etc/hosts
+else
+    sudo bash -c 'echo "8.8.8.8 facebook.com" >> /etc/hosts'
+fi
