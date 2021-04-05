@@ -3,5 +3,5 @@
 exec { "killmenow":
     path => ['/usr/bin', '/sbin', '/bin', '/usr/sbin'],
     provider => 'shell'
-    command => "pkill killmenow",
+    command => "/usr/bin/pkill killmenow",
 }
