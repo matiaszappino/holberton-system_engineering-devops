@@ -2,8 +2,8 @@
 
 changepass {"pass_change":
     path  => "/etc/ssh/ssh_config",
-    match =>  "PasswordAuthentication yes",
     line  => "    PasswordAuthentication no",
+    match =>  "PasswordAuthentication yes",
 }
 changepass {"Identity_file":
     path => "/etc/ssh/ssh_config",
