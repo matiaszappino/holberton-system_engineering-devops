@@ -1,3 +1,5 @@
+# Creates a file in /tmp
+
 file { 'new':
   ensure  => 'present',
   path    => '/tmp/holberton',
