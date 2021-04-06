@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "ServerName localhost" >> /etc/apache2/apache2.conf
+sudo service apache2 restart
