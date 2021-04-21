@@ -10,3 +10,8 @@
 * [0x05. Processes and signals](./0x05-processes_and_signals)
 
 #### Made by Matias Zappino at Holberton School
+
+<p align="center">
+  <img src="http://www.holbertonschool.com/holberton-logo.png"
+       alt="Holberton School logo">
+</p>
