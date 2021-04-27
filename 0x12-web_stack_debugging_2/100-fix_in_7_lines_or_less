@@ -1,7 +1,6 @@
-#!/usr/bin env bash
-# Runs Nginx as a non root user
-chmod 644 /etc/nginx/nginx.conf
-user="user www-data;" nginx="user nginx;"; sed -i "/^#$user/ c$nginx" /etc/nginx/nginx.conf
-sed -i 's/80 default_server/8080 default_server/g' /etc/nginx/sites-available/default
+#!/usr/bin/env bash
+# Runs nginx as non root user
 pkill apache2
-sudo -u nginx service nginx start
+sed -i 's/80 default_server/8080 default_server/g' /etc/nginx/sites-available/default
+chmod 644 /etc/nginx/nginx.conf
+sudo -u nginx service nginx restart
