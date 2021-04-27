@@ -3,4 +3,3 @@
 user="user www-data;"; sed -i "/^#$user/ c$user" /etc/nginx/nginx.conf
 sed -i 's/80 default_server/8080 default_server/g' /etc/nginx/sites-available/default
 sudo service nginx restart
-
