@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Run Nginx as a non root user
+user="user www-data"; sed -i "/^#$user/ c$user" /etc/nginx/nginx.conf
+sudo service nginx restart
