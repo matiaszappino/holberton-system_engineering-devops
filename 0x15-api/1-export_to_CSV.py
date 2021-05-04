@@ -17,9 +17,9 @@ if __name__ == "__main__":
     number_of_done = 0
     username = (requests.get(api + "users/{}".format(
         user_id)).json()).get("username")
-    for item in all_tasks:
-        with open("{}.csv".format(user_id), mode="w") as file:
-            file = csv.writer(
-                file, delimiter=",", quoting=csv.QUOTE_ALL)
+    with open("{}.csv".format(user_id), mode="w") as file:
+        file = csv.writer(
+            file, delimiter=",", quoting=csv.QUOTE_ALL)
+        for item in all_tasks:
             file.writerow([user_id, username, item.get(
-                    "completed"), item.get("title")])
+                "completed"), item.get("title")])
