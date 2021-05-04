@@ -2,7 +2,7 @@
 """Returns information about his/her TODO list progress"""
 import requests
 import sys
-import json
+import csv
 
 
 if __name__ == "__main__":
@@ -15,15 +15,6 @@ if __name__ == "__main__":
     all_tasks = requests.get(
         api + "todos/", params={"userId": user_id}).json()
     number_of_done = 0
-    for item in all_tasks:
-        if item.get("completed") is True:
-            number_of_done += 1
-    print("Employee {} is done with tasks({}/{}):".format(
-        employee_name, number_of_done, number_of_tasks))
-    for item in all_tasks:
-        if item.get("completed") is True:
-            title = item.get("title")
-            print("\t {}".format(title))
     for item in all_tasks:
         with open("{}.csv".format(user_id), mode="w") as file:
             file = csv.writer(

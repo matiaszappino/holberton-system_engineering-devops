@@ -18,7 +18,6 @@ if __name__ == "__main__":
     for item in all_tasks:
         if item.get("completed") is True:
             number_of_done += 1
-
     data = {}
     data[user_id] = []
     for item in all_tasks:
