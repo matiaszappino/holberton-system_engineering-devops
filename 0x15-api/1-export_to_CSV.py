@@ -2,7 +2,7 @@
 """Returns information about his/her TODO list progress"""
 import requests
 import sys
-import csv
+import json
 
 
 if __name__ == "__main__":
