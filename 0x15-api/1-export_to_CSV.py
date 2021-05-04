@@ -27,7 +27,6 @@ if __name__ == "__main__":
     for item in all_tasks:
         with open("{}.csv".format(user_id), mode="w") as file:
             file = csv.writer(
-                file, delimiter=",", quotechar='"', quoting=csv.QUOTE_ALL)
-            file.writerow(["{},{},{},{}".format(
-                user_id, employee_name, item.get(
-                    "completed"), item.get("title"))])
+                file, delimiter=",", quoting=csv.QUOTE_ALL)
+            file.writerow([user_id, employee_name, item.get(
+                    "completed"), item.get("title")])
