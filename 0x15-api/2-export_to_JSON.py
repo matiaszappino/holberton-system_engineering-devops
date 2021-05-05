@@ -5,7 +5,6 @@ import requests
 import sys
 
 
-
 if __name__ == "__main__":
     user_id = sys.argv[1]
     api = "https://jsonplaceholder.typicode.com/"
